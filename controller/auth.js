@@ -92,7 +92,7 @@ const login = async (req, res= response) =>{
         console.log('error :>> ', error);
         return res.status(500).json({
             ok: false,
-            msg: 'Hable con el administrador'
+            msg: 'Hable con el admin'
         })
     }
     
